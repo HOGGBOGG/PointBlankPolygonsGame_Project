@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96df67d03a1251547bea334713da6e1c, type: 3}
+  m_Name: (EBOSS)Missile
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 7591600155568199389, guid: 1ded63a87823bb9458c7e4989e6bf49a, type: 3}
+  Scaling: {fileID: 11400000, guid: 42c4c22fb4a074b4c986e3c6a7377c2b, type: 2}
+  MaxHealth: 800
+  SurroundDistance: 15
+  Points: 200
+  DefaultState: 2
+  LineOfSightRange: 60
+  FieldOfView: 180
+  AIUpdateInterval: 0.1
+  Speed: 7
+  Acceleration: 50
+  AngularSpeed: 1000
+  StoppingDistance: 8
+  HOSTILE_LAYER_NAME: Friendly

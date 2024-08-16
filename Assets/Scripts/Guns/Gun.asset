@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7099a10c43153499d993a90a5d2594, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  DamageRadius: 7.59
+  Type: 0
+  Name: Glock
+  ModelPrefab: {fileID: 910350542708960047, guid: e7e476d17ce56814d8382545a509eb26, type: 3}
+  SpawnPoint: {x: 0, y: 0, z: -0.7}
+  SpawnRotation: {x: 0, y: 0, z: 0}
+  ShotgunAudioConfig: {fileID: 11400000, guid: 729d74f8fd104f341aadec177439cd25, type: 2}
+  SniperModelPrefab: {fileID: 2171600381831280011, guid: 4fb1b879478f9df4691e951a92889f3b, type: 3}
+  Sniper1SpawnPoint: {x: -0.512, y: 0.356, z: -1.092}
+  Sniper1SpawnRotation: {x: 0, y: 0, z: 0}
+  Sniper2SpawnPoint: {x: 0.512, y: 0.356, z: -1.092}
+  Sniper2SpawnRotation: {x: 0, y: 0, z: 0}
+  SniperShootConifg: {fileID: 11400000, guid: 88fc131832b94814686766ce3f06731a, type: 2}
+  SniperAudioConfig: {fileID: 11400000, guid: 1e972900ffdaca34cbaf68a8429b753f, type: 2}
+  SniperDamageConfig: {fileID: 11400000, guid: c03d4f71850b5c54f8dea8f70941297d, type: 2}
+  ShootConfig: {fileID: 11400000, guid: f4e25f9273e8469478118b1b711d15fc, type: 2}
+  TrailConfig: {fileID: 11400000, guid: d4be3efb617afdb45a09a15022adf2c7, type: 2}
+  AmmoConfig: {fileID: 11400000, guid: 85d89be61f4a1164486cd0292ea39965, type: 2}
+  AudioConfig: {fileID: 11400000, guid: eab04473b71dc2d409e981aeefeb6372, type: 2}
+  DamageConfig: {fileID: 11400000, guid: 0e6e19e1b5f0bda49b84ddafcd04bd5b, type: 2}

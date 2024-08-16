@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96df67d03a1251547bea334713da6e1c, type: 3}
+  m_Name: (A)Missile
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6265594594206733591, guid: 7957ba88fff5dac43913dc044b7b751d, type: 3}
+  Scaling: {fileID: 11400000, guid: 34ee8e19e42883d4bbbd276633ee3bfd, type: 2}
+  MaxHealth: 375
+  SurroundDistance: 15
+  Points: 0
+  DefaultState: 2
+  LineOfSightRange: 40
+  FieldOfView: 180
+  AIUpdateInterval: 0.1
+  Speed: 12
+  Acceleration: 50
+  AngularSpeed: 1000
+  StoppingDistance: 2
+  HOSTILE_LAYER_NAME: Hostile

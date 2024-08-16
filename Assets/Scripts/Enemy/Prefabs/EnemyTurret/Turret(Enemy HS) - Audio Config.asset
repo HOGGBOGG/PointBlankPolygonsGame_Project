@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b112720ac7cf384bbc01534097d19f8, type: 3}
+  m_Name: Turret(Enemy HS) - Audio Config
+  m_EditorClassIdentifier: 
+  Volume: 1
+  FireClips:
+  - {fileID: 8300000, guid: 8b76cff51a7d7e844b0adf5da4371ec6, type: 3}
+  - {fileID: 8300000, guid: 7e0c321a53b744a4c93fd44a27213a48, type: 3}
+  EmptyClip: {fileID: 0}
+  ReloadClip: {fileID: 0}
+  LastBulletClip: {fileID: 0}

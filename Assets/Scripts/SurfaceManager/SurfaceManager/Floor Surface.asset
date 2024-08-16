@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3236a9c33c2469489bc8f7fa26925b2, type: 3}
+  m_Name: Floor Surface
+  m_EditorClassIdentifier: 
+  ImpactTypeEffects:
+  - ImpactType: {fileID: 11400000, guid: 068c592ed508365468413491ab15cc99, type: 2}
+    SurfaceEffect: {fileID: 11400000, guid: db7fcc8b869750b4c8fedaeec8f7337c, type: 2}
+  - ImpactType: {fileID: 11400000, guid: 3ec0438978437c54a95027d05d60c45e, type: 2}
+    SurfaceEffect: {fileID: 11400000, guid: 482d014e491b2f44f83561de088254f9, type: 2}

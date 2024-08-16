@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96df67d03a1251547bea334713da6e1c, type: 3}
+  m_Name: (E)Hitscan
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3646976219630276507, guid: 80ee784b635fc2145a1e48b54e9d2602, type: 3}
+  Scaling: {fileID: 11400000, guid: c81e199991eee60479a49f34f8f5f20a, type: 2}
+  MaxHealth: 180
+  SurroundDistance: 10
+  Points: 20
+  DefaultState: 2
+  LineOfSightRange: 50
+  FieldOfView: 180
+  AIUpdateInterval: 0.1
+  Speed: 6
+  Acceleration: 50
+  AngularSpeed: 1000
+  StoppingDistance: 4
+  HOSTILE_LAYER_NAME: Friendly

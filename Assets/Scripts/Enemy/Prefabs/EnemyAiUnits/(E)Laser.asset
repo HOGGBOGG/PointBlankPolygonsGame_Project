@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96df67d03a1251547bea334713da6e1c, type: 3}
+  m_Name: (E)Laser
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3741356844199982299, guid: e00eac6cb543d514ab41a5d65cb33664, type: 3}
+  Scaling: {fileID: 11400000, guid: f0f1b1a8d4c5d8146a0bb773c0318b34, type: 2}
+  MaxHealth: 300
+  SurroundDistance: 20
+  Points: 40
+  DefaultState: 2
+  LineOfSightRange: 50
+  FieldOfView: 180
+  AIUpdateInterval: 0.1
+  Speed: 8
+  Acceleration: 50
+  AngularSpeed: 1000
+  StoppingDistance: 3
+  HOSTILE_LAYER_NAME: Friendly
